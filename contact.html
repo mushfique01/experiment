@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h3>My Contacts</h3>
+  <ul>
+    <li><a href="mailto:media@cdprojektred.com">Email</a></li>
+    <li><a href="https://twitter.com/witchergame">Twitter</a></li>
+    <li><a href="https://www.facebook.com/thewitcher">Facebook</a></li>
+    <li><a href="https://www.youtube.com/user/WitcherGame">Youtube</a></li>
+  </ul>
+  <hr>
+  <form action="mailto:media@cdprojektred.com" method="post" enctype="text/plain">
+    <table cellpadding="10">
+      <tr>
+        <td><label for="date">Date:</label></td>
+        <td><input type="date" name="Date" value="2022-01"></td>
+      </tr>
+      <tr>
+        <td><label for="name">Your Name:</label></td>
+        <td><input type="text" id="name" name="Your Name" placeholder="John Doe"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Your Email:</label></td>
+        <td><input type="email" id="email" name="Your Email" placeholder="abc@xyz.com"></td>
+      </tr>
+      <tr>
+        <td><label>Your Message:</label></td>
+      </tr>
+    </table>
+    <table cellpadding="10">
+      <tr>
+        <td><textarea name="Your Message" placeholder="Write your message here..." rows="10" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
