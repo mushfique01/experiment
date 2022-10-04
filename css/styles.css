@@ -1,0 +1,31 @@
+body{
+  font-family: 'Cinzel', serif;
+  font-family: 'Comfortaa', cursive;
+  background-color: #CFD2CF;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 3%;
+  color: #A9B1A9;
+}
+
+h1{
+  font-family: 'Cinzel', serif;
+  filter: saturate(100%);
+  filter: drop-shadow(0rem 0rem 0.1rem);
+  color: #017D83
+}
+
+h3{
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
+  filter: saturate(60%);
+  color: #11999E
+}
+
+.box {
+  width:500px;
+  overflow-wrap:break-word;
+}
