@@ -6,6 +6,7 @@
   <title>Contact Information</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href='css/cinzel_header.css' rel='stylesheet' type='text/css'>
+  <link href='css/comforta_body.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -15,10 +16,10 @@
       <tr>
         <td>
           <ul>
-            <li><a href="mailto:media@cdprojektred.com">Email</a></li>
-            <li><a href="https://twitter.com/witchergame">Twitter</a></li>
-            <li><a href="https://www.facebook.com/thewitcher">Facebook</a></li>
-            <li><a href="https://www.youtube.com/user/WitcherGame">Youtube</a></li>
+            <li><a href="mailto:media@cdprojektred.com"><strong>Email</strong></a></li>
+            <li><a href="https://twitter.com/witchergame"><strong>Twitter</strong></a></li>
+            <li><a href="https://www.facebook.com/thewitcher"><strong>Facebook</strong></a></li>
+            <li><a href="https://www.youtube.com/user/WitcherGame"><strong>Youtube</strong></a></li>
           </ul>
         </td>
       </tr>
@@ -29,16 +30,12 @@
     <form action="mailto:media@cdprojektred.com" method="post" enctype="text/plain">
       <table cellpadding="10">
         <tr>
-          <td><label for="date">Date:</label></td>
-          <td><input type="date" name="Date" value="2022-01"></td>
-        </tr>
-        <tr>
           <td><label for="name">Your Name:</label></td>
-          <td><input type="text" id="name" name="Your Name" placeholder="John Doe"></td>
+          <td><input class="inptstyle" type="text" id="name" name="Your Name" placeholder="John Doe"></td>
         </tr>
         <tr>
           <td><label for="email">Your Email:</label></td>
-          <td><input type="email" id="email" name="Your Email" placeholder="abc@xyz.com"></td>
+          <td><input class="inptstyle" type="email" id="email" name="Your Email" placeholder="abc@xyz.com" autocomplete="on"></td>
         </tr>
         <tr>
           <td><label>Your Message:</label></td>
@@ -46,10 +43,10 @@
       </table>
       <table cellpadding="10">
         <tr>
-          <td><textarea name="Your Message" placeholder="Write your message here..." rows="10" cols="40"></textarea></td>
+          <td><textarea class="inptstyle" name="Your Message" placeholder="Write your message here..." rows="10" cols="40"></textarea></td>
         </tr>
         <tr>
-          <td><input type="submit" value="Submit"></td>
+          <td><button class="btnstyle" type="submit">Submit</button></td>
         </tr>
       </table>
     </form>
