@@ -19,21 +19,9 @@ h1 {
   color: #505151;
 }
 
-h3 {
+h2 {
   font-family: 'Cinzel', serif;
   font-weight: bolder;
   filter: saturate(80%);
   color: #727373;
-}
-
-input:focus {
-  outline-style: outset;
-  outline-color: #878686;
-  outline-width: medium;
-}
-
-textarea:focus {
-  outline-style: outset;
-  outline-color: #878686;
-  outline-width: medium;
 }
