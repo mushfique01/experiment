@@ -1,0 +1,57 @@
+body{
+  font-family: 'Cinzel', serif;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  background-color: #F9F7F7;
+  text-align: center;
+}
+h1{
+  margin-top: 0;
+}
+p{
+  color: #3F72AF;
+  margin: 0;
+}
+img{
+  vertical-align: middle;
+}
+.namecnt{
+  margin: 0 auto;
+  max-width: 250px;
+  max-height: 45px;
+  overflow: hidden;
+}
+.name{
+  width: 100%;
+}
+.tpcntr{
+  background-color: #DBE2EF;
+}
+.tp{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.bt{
+  margin: 0;
+}
+.landcnt{
+  margin: 0 auto;
+  max-width: 800px;
+  overflow: hidden;
+}
+.land{
+  width: 100%;
+}
+.mdlcntr{
+  background-color: red;
+}
+.btmcntr{
+  background-color: blue;
+}
+.tpcld{
+  position: relative;
+}
+.btmcld{
+  position: relative;
+}

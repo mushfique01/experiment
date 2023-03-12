@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Input testing</title>
+
+  <style media="screen">
+    body{
+      background-color: #FBF8F1;
+    }
+  </style>
+
+</head>
+
+<body>
+  <form class="" action="index.html" method="post">
+    <table cellpadding="10">
+      <tr>
+        <td><label for="consent">Are you willingly going to fill up this form?</label></td>
+        <td><input type="checkbox" id="consent" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="privacy">Are interested in sharing your personal deatails?</label></td>
+        <td><input type="checkbox" id="privacy" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="info">Have you ever filled up a form before?</label></td>
+        <td><input type="checkbox" id="info" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="ques">Have you ticked all the checkboxes above?</label></td>
+        <td><input type="checkbox" id="ques" value=""></td>
+      </tr>
+    </table>
+    <table cellpadding="10">
+      <tr>
+        <td><strong><em>Only and only if you ticked the last checkbox, you may proceed below and fill up the form.</em></strong> 👉</td>
+      </tr>
+    </table>
+    <table cellpadding="10">
+      <tr>
+        <td align="right"><label for="">Email:</label></td>
+        <td><input type="email" placeholder="abc@xyz.com" name="Email" value=""></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="user">Username:</label></td>
+        <td><input type="text" placeholder="John Baggeute" id="Username" name="Default" value=""></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="pass">Password:</label></td>
+        <td><input type="password" placeholder="123abc" id="pass" name="Password" value=""></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="confirm">Confirm Password:</label></td>
+        <td><input type="password" placeholder="123abc" id="confirm" name="Confirm-password" value=""></td>
+      </tr>
+      <tr>
+        <td><input type="reset" value="Reset"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="Submit"></td>
+      </tr>
+    </table>
+    <table cellpadding="10">
+      <tr>
+        <th>🎊Now below are some things to play with as a reward for completing this form.Enjoy!🎊</th>
+      </tr>
+      <tr>
+        <td><label for="color">What is your favourite color?</label></td>
+        <td><input type="color" id="color" value="#73D3E0"></td>
+      </tr>
+      <tr>
+        <td><label for="date">What is todays date?</label></td>
+        <td><input type="date" id="date" name="Date" value="2022-10-01" min="2022-10-09" max="2022-10-13"></td>
+      </tr>
+      <tr>
+        <td><label for="date-time">Tell me your exact date and time now!</label></td>
+        <td><input type="datetime-local" id="Date-time" name="date-time" value="2022-09-20T00:00" min="2022-09-18T00:00" max="2022-09-22T00:00"></td>
+      </tr>
+      <tr>
+        <td><label for="song">Choose your favourite song?</label></td>
+        <td><input type="file" id="song" accept="audio/basic, audio/x-mpeg, audio/x-pn/realaudio"></td>
+      </tr>
+      <tr>
+        <td><label>Click the button to see if anything happens!</label></td>
+        <td><a href="https://neal.fun/deep-sea/" target="_blank"><img src="pics/small_red_button.png" alt="red-button"></a></td>
+      </tr>
+      <tr>
+        <td><label for="month">What month were you born in?</label></td>
+        <td><input type="month" id="month" name="Month" value="2001-01" min="2001-01" max="2001-12"></td>
+      </tr>
+      <tr>
+        <td><label for="num">Pick a number between (5-19)</label></td>
+        <td><input type="number" id="num" name="Number" min="5" max="19" required></td>
+      </tr>
+      <tr>
+        <td><label for="volume">Adjust the volume.</label></td>
+        <td><input type="range" id="volume" min="0" value="40" max="100" step="10"></td>
+      </tr>
+      <tr>
+        <td><label for="look">Are you looking for somehting?</label></td>
+        <td><input type="search" id="look"> <button type="button">Search</button></td>
+      </tr>
+      <tr>
+        <td><label for="tele">Enter your number:</label></td>
+        <td><input type="tel" id="tele" name="Phone Number" pattern="+[0-9]{0-3}-[0-9]{4}-[0-9]{3}-[0-9]{4}" required></td>
+      </tr>
+      <tr>
+        <td><label for="url">Enter a proper https:// link:</label></td>
+        <td><input type="url" id="url" name="Link" placeholder="https://doubt.com" pattern="https://.*" size="30" required></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
