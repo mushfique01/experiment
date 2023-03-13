@@ -17,6 +17,8 @@ h1 {
   filter: saturate(100%);
   filter: drop-shadow(0rem 0rem 0.1rem);
   color: #505151;
+  text-align: center;
+  font-size: 3rem;
 }
 
 h2 {
@@ -24,4 +26,10 @@ h2 {
   font-weight: bolder;
   filter: saturate(80%);
   color: #727373;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #c54949;
 }
